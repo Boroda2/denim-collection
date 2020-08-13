@@ -1,0 +1,27 @@
+.row {
+  font-size: 0;
+  margin: -20px;
+}
+
+.row > .column {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.row-large {
+  margin: -35px;
+}
+.row-large > .column {
+  padding: 35px;
+}
+
+/* <div class="row row-medium"></div> */
+
+.row-medium {
+  margin: -33px -28px;
+}
+.row-medium > .column {
+  padding: 33px 28px;
+}

@@ -1,0 +1,25 @@
+.card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 13px;
+}
+
+.card-image {
+  margin-bottom: 22px;
+}
+
+.card-image.large > img {
+  height: 786px;
+}
+.card-image.medium > img {
+  height: 523px;
+}
+
+.card-image.semi-medium > img {
+  height: 420px;
+}
+
+.card-image.small > img {
+  height: 320px;
+}
